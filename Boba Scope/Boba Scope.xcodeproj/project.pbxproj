@@ -23,6 +23,8 @@
 		819B7E4723CEAEB600C28020 /* LaunchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B7E4623CEAEB600C28020 /* LaunchVC.swift */; };
 		819B7E4923CEAF2000C28020 /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B7E4823CEAF2000C28020 /* NotificationVC.swift */; };
 		819B7E4B23CEAF6600C28020 /* CollectionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 819B7E4A23CEAF6600C28020 /* CollectionVC.swift */; };
+		8243672923D3059900E02B38 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243672823D3059900E02B38 /* CustomImageView.swift */; };
+		8243672B23D30B2200E02B38 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8243672A23D30B2200E02B38 /* User.swift */; };
 		87C6D655FF195771C6F09486 /* Pods_Boba_Scope.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F26CF95CA5C111FA8BE28DB /* Pods_Boba_Scope.framework */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +49,8 @@
 		819B7E4623CEAEB600C28020 /* LaunchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchVC.swift; sourceTree = "<group>"; };
 		819B7E4823CEAF2000C28020 /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
 		819B7E4A23CEAF6600C28020 /* CollectionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionVC.swift; sourceTree = "<group>"; };
+		8243672823D3059900E02B38 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		8243672A23D30B2200E02B38 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FFF19A6D4FF00104224F35D3 /* Pods-Boba Scope.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Boba Scope.release.xcconfig"; path = "Target Support Files/Pods-Boba Scope/Pods-Boba Scope.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -141,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				8173C78223CFC2E300008B40 /* UserProfileVC.swift */,
+				8243672A23D30B2200E02B38 /* User.swift */,
 			);
 			path = "User-Profiles";
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				8106185923CE456800E61935 /* Extensions.swift */,
 				8106185B23CE457B00E61935 /* Protocols.swift */,
 				8106185D23CE458800E61935 /* Constants.swift */,
+				8243672823D3059900E02B38 /* CustomImageView.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -323,12 +329,14 @@
 				8106185C23CE457B00E61935 /* Protocols.swift in Sources */,
 				819B7E4223CEAE7000C28020 /* ExploreVC.swift in Sources */,
 				8106183D23CE3ADF00E61935 /* AppDelegate.swift in Sources */,
+				8243672B23D30B2200E02B38 /* User.swift in Sources */,
 				8106185823CE440800E61935 /* LoginVC.swift in Sources */,
 				819B7E4723CEAEB600C28020 /* LaunchVC.swift in Sources */,
 				8106185A23CE456800E61935 /* Extensions.swift in Sources */,
 				819B7E3E23CEA5DF00C28020 /* MainTabVC.swift in Sources */,
 				8106185E23CE458800E61935 /* Constants.swift in Sources */,
 				8173C78323CFC2E300008B40 /* UserProfileVC.swift in Sources */,
+				8243672923D3059900E02B38 /* CustomImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

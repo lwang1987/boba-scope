@@ -11,13 +11,35 @@ import Firebase
 
 class UserProfileVC: UIViewController{
     // MARK: - Properties
-   
+    
+    
+    let profileImageView: UIImageView = {
+        let iv = UIImageView()
+        iv.contentMode = .scaleAspectFill
+        iv.clipsToBounds = true
+        iv.backgroundColor = .lightGray
+        iv.tintColor = .lightGray
+        return iv
+    }()
+    
+    let nameLabel: UILabel = {
+        let label = UILabel()
+        label.text = "Full Name"
+        label.font = UIFont.boldSystemFont(ofSize: 18)
+        return label
+    }()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor(red: 239/255, green: 217/255, blue: 206/255, alpha: 1)
+        view.backgroundColor = UIColor(red: 219/255, green: 213/255, blue: 229/255, alpha: 1.0)
        
+        view.addSubview(profileImageView)
+        profileImageView.anchor(top: view.topAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 115, paddingLeft: 141, paddingBottom: 50, paddingRight: 141, width: 130, height: 130)
+        profileImageView.layer.cornerRadius = 130/2
         configureLogoutButton()
+        
+        view.addSubview(nameLabel)
+        nameLabel.anchor(top: profileImageView.bottomAnchor, left: view.leftAnchor, bottom: nil, right: view.rightAnchor, paddingTop: 10, paddingLeft: 167, paddingBottom: 0, paddingRight: 140, width: 0, height: 0)
     }
     
     override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
